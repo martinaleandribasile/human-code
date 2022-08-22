@@ -1,0 +1,20 @@
+\\APRIRE UN PACCHETTO DI FIGURINE\\
+Prendo e apro l'Album 
+FINCHE' ho pacchetti da aprire 
+    -> Apro pacchetti
+    -> Raccolgo figurine in mazzoNuovo
+    FINCHE'ci sono carte in mazzoNuovo
+        -> Vado alla pagina corrispondente nell'Album
+        -> Controllo figurina 
+        SE figurina NON e' presente nell'Album
+            -> Inserisco la figurina
+        ALTRIMENTI
+            -> Inserisco carta in mazzoDoppioni
+            FINCHE' mazzoDoppioni NON e' vuoto
+                -> Confronto carta con  gli amici
+                SE amici hanno gia' la figurina
+                        -> Butto la figurina
+                ALTRIMENTI 
+                        -> scambio figurina e ricevo cartaNuova
+                        -> inserisco cartaNuova in mazzoNuovo
+Butto pacchetto vuoto
