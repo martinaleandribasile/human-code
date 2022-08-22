@@ -10,10 +10,10 @@ FINCHE' ho pacchetti da aprire
             -> Inserisco la figurina
         ALTRIMENTI
             -> Inserisco carta in mazzoDoppioni
-            FINCHE' mazzoDoppioni NON e' vuoto
+            FINCHE' NON controllo tutte le carte in mazzoDoppioni una volta sola
                 -> Confronto carta con  gli amici
                 SE amici hanno gia' la figurina
-                        -> Butto la figurina
+                        -> Rimetto la figurina nel mazzoDoppioni
                 ALTRIMENTI 
                         -> scambio figurina e ricevo cartaNuova
                         -> inserisco cartaNuova in mazzoNuovo
